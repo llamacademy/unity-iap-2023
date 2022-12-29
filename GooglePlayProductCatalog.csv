@@ -1,0 +1,6 @@
+Product ID,Published State,Purchase Type,Auto Translate,Locale; Title; Description,Auto Fill Prices,Price,Pricing Template ID
+few_bucks,published,managed_by_android,false,en_US;A Few Bucks;Just a few bucks (30),true,1990000,
+many_bucks,published,managed_by_android,false,en_US;Many Bucks;Many Bucks For You (100),true,4990000,
+loads_bucks,published,managed_by_android,false,"en_US;Loads of Bucks;Loads of Bucks! You'll be rich! (1,000)",true,24990000,
+all_guns,published,managed_by_android,false,en_US;All Guns Pack;Unlocks all the guns in the game!,true,99990000,
+all_guns_sale,published,managed_by_android,false,en_US;All Guns Pack SALE!;Unlocks all the guns in the game!,true,49990000,

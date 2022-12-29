@@ -1,0 +1,5 @@
+make sure if you're following along that you name each sprite to be exactly the ID of the IAP Catalog item you want it to show up for.
+
+all_guns and all_guns_sale are blurred because the sprites for them came from an asset: https://assetstore.unity.com/packages/2d/gui/2d-icons-military-item-18931?aid=1101l9QvC
+
+that I'm not sure I can redistribute even though you couldn't directly rip them and use them.

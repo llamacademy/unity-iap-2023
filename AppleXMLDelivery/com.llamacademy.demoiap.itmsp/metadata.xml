@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<package version="software5.7" xmlns="http://apple.com/itunes/importer">
+  <provider>DA7538VBY4 </provider>
+  <team_id>DA7538VBY4 </team_id>
+  <software>
+    <vendor_id>com.llamacademy.demoiap</vendor_id>
+    <software_metadata>
+      <in_app_purchases>
+        <in_app_purchase>
+          <product_id>few_bucks</product_id>
+          <reference_name>few_bucks</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>2</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>A Few Bucks</title>
+              <description>Just a few bucks (30)</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>IAP Screen.png</file_name>
+            <size>537060</size>
+            <checksum>7fa19c62533b158256fcb78064c02d20</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>many_bucks</product_id>
+          <reference_name>many_bucks</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>5</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Many Bucks</title>
+              <description>Many Bucks For You (100)</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>IAP Screen.png</file_name>
+            <size>537060</size>
+            <checksum>7fa19c62533b158256fcb78064c02d20</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>loads_bucks</product_id>
+          <reference_name>loads_bucks</reference_name>
+          <type>consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>25</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>Loads of Bucks</title>
+              <description>Loads of Bucks! You'll be rich! (1,000)</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>IAP Screen.png</file_name>
+            <size>537060</size>
+            <checksum>7fa19c62533b158256fcb78064c02d20</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>all_guns</product_id>
+          <reference_name>all_guns</reference_name>
+          <type>non-consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>60</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>All Guns Pack</title>
+              <description>Unlocks all the guns in the game!</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>IAP Screen.png</file_name>
+            <size>537060</size>
+            <checksum>7fa19c62533b158256fcb78064c02d20</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+        <in_app_purchase>
+          <product_id>all_guns_sale</product_id>
+          <reference_name>all_guns_sale</reference_name>
+          <type>non-consumable</type>
+          <products>
+            <product>
+              <cleared_for_sale>true</cleared_for_sale>
+              <wholesale_price_tier>50</wholesale_price_tier>
+            </product>
+          </products>
+          <locales>
+            <locale name="en-US">
+              <title>All Guns Pack SALE!</title>
+              <description>Unlocks all the guns in the game!</description>
+            </locale>
+          </locales>
+          <review_screenshot>
+            <file_name>IAP Screen.png</file_name>
+            <size>537060</size>
+            <checksum>7fa19c62533b158256fcb78064c02d20</checksum>
+          </review_screenshot>
+        </in_app_purchase>
+      </in_app_purchases>
+    </software_metadata>
+  </software>
+</package>
