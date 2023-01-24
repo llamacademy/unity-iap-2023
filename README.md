@@ -40,6 +40,7 @@ Head over to the [LlamAcademy Patreon Page](https://patreon.com/llamacademy) or 
 * Elijah Singer
 * Vita Prochazka
 * Josh Meyer
+* Ewald Schulte
 * YOUR NAME HERE!
 
 ## Other Projects
