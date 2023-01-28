@@ -34,11 +34,11 @@ Head over to the [LlamAcademy Patreon Page](https://patreon.com/llamacademy) or 
 * Dr Bash
 * Tarik
 * EJ
-* Chris B.
 * Sean
 * ag10g
 * Elijah Singer
 * Vita Prochazka
+* Lurking Ninja
 * Josh Meyer
 * Ewald Schulte
 * YOUR NAME HERE!
