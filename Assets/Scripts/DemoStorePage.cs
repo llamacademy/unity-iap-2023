@@ -16,6 +16,8 @@ public class DemoStorePage : MonoBehaviour, IStoreListener
     private HorizontalLayoutGroup ContentPanel;
     [SerializeField]
     private GameObject LoadingOverlay;
+    [SerializeField]
+    private bool UseFakeStore = false;
 
     private Action OnPurchaseCompleted;
     private IStoreController StoreController;
@@ -42,8 +44,11 @@ public class DemoStorePage : MonoBehaviour, IStoreListener
         ProductCatalog catalog = JsonUtility.FromJson<ProductCatalog>((request.asset as TextAsset).text);
         Debug.Log($"Loaded catalog with {catalog.allProducts.Count} items");
 
-        StandardPurchasingModule.Instance().useFakeStoreUIMode = FakeStoreUIMode.StandardUser;
-        StandardPurchasingModule.Instance().useFakeStoreAlways = true;
+        if (UseFakeStore) // Use bool in editor to control fake store behavior.
+        {
+            StandardPurchasingModule.Instance().useFakeStoreUIMode = FakeStoreUIMode.StandardUser; // Comment out this line if you are building the game for publishing.
+            StandardPurchasingModule.Instance().useFakeStoreAlways = true; // Comment out this line if you are building the game for publishing.
+        }
 
 #if UNITY_ANDROID
         ConfigurationBuilder builder = ConfigurationBuilder.Instance(
@@ -117,6 +122,13 @@ public class DemoStorePage : MonoBehaviour, IStoreListener
         LoadingOverlay.SetActive(true);
         this.OnPurchaseCompleted = OnPurchaseCompleted;
         StoreController.InitiatePurchase(Product);
+    }
+
+    public void RestorePurchase() // Use a button to restore purchase only in iOS device.
+    {
+#if UNITY_IOS
+        ExtensionProvider.GetExtension<IAppleExtensions>().RestoreTransactions(OnRestore);
+#endif
     }
 
     public void OnInitializeFailed(InitializationFailureReason error)
